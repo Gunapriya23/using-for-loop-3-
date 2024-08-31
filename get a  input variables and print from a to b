@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("num 1: ");
+    int a=sc.nextInt();
+    System.out.println("num 2: ");
+    int b=sc.nextInt();
+    
+    for(int i=a;i<=b;i=i+1){
+        System.out.println(i);
+    }
+}
+}
